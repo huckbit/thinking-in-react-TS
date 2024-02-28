@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<DocumentFragment>
+  <div>
+    <form>
+      <input
+        placeholder="Search..."
+        type="text"
+        value=""
+      />
+      <label>
+        <input
+          type="checkbox"
+          value="false"
+        />
+        Only show products in stock
+      </label>
+    </form>
+    <table>
+      <thead>
+        <tr>
+          <th>
+            Name
+          </th>
+          <th>
+            Price
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th
+            colspan="2"
+          >
+            Fruits
+          </th>
+        </tr>
+        <tr>
+          <td>
+            Apple
+          </td>
+          <td>
+            £1
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Dragonfruit
+          </td>
+          <td>
+            £1
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <span
+              style="color: red;"
+            >
+              Passionfruit
+            </span>
+          </td>
+          <td>
+            £2
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</DocumentFragment>
+`;
