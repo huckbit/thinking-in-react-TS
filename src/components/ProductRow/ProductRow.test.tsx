@@ -27,4 +27,16 @@ describe("ProductRow", () => {
     expect(screen.getByText(mock.name)).toBeInTheDocument();
     expect(screen.getByText(mock.price)).toBeInTheDocument();
   });
+
+  test("renders product name in red if not stocked", () => {
+    render(
+      <table>
+        <tbody>
+          <ProductRow product={{ ...mock, stocked: false }} />
+        </tbody>
+      </table>,
+    );
+
+    expect(screen.getByText(mock.name)).toHaveStyle({ color: "red" });
+  });
 });

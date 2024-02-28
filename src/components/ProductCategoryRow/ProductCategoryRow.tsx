@@ -5,10 +5,8 @@ export interface Props {
 function ProductCategoryRow({ category }: Props) {
   return (
     <tr>
-      <th colSpan={2}>
-        {category}
-      </th>
+      <th colSpan={2}>{category}</th>
     </tr>
-  )
+  );
 }
-export default ProductCategoryRow
+export default ProductCategoryRow;
