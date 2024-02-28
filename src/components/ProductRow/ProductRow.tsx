@@ -5,21 +5,15 @@ export interface Product {
   name: string;
 }
 
-export interface Props {
-  product: Product;
-}
-
-function ProductRow({ product }: Props) {
+function ProductRow({ product }: { product: Product }) {
   const { stocked, name, price } = product;
-  const productName = stocked ? name : <span style={{ color: "red" }}>
-    {name}
-  </span>
+  const productName = stocked ? name : <span style={{ color: "red" }}>{name}</span>;
   return (
     <tr>
       <td>{productName}</td>
-      <td>£{price}</td>
+      <td>{price}</td>
     </tr>
-  )
+  );
 }
 
 export default ProductRow;
