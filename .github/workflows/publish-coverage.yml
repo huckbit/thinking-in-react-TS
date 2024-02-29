@@ -19,4 +19,5 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           node-version: 20
+          github_token: ${{ secrets.GH_PAGES_DEPLOY }}
           publish_dir: ./coverage/lcov-report
