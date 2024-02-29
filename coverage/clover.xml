@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1709219767620" clover="3.2.0">
-  <project timestamp="1709219767620" name="All files">
-    <metrics statements="45" coveredstatements="44" conditionals="9" coveredconditionals="8" methods="12" coveredmethods="12" elements="66" coveredelements="64" complexity="0" loc="45" ncloc="45" packages="5" files="13" classes="13"/>
+<coverage generated="1709221299285" clover="3.2.0">
+  <project timestamp="1709221299285" name="All files">
+    <metrics statements="45" coveredstatements="45" conditionals="9" coveredconditionals="9" methods="12" coveredmethods="12" elements="66" coveredelements="66" complexity="0" loc="45" ncloc="45" packages="5" files="13" classes="13"/>
     <package name="FilterableProductTable">
       <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="FilterableProductTable.mock.tsx" path="/Users/huckbit/dev/__react/thinking-in-react-TS/src/components/FilterableProductTable/FilterableProductTable.mock.tsx">
@@ -24,12 +24,12 @@
       <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
       <file name="ProductCategoryRow.tsx" path="/Users/huckbit/dev/__react/thinking-in-react-TS/src/components/ProductCategoryRow/ProductCategoryRow.tsx">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="6" count="3" type="stmt"/>
-        <line num="12" count="2" type="stmt"/>
+        <line num="6" count="6" type="stmt"/>
+        <line num="12" count="3" type="stmt"/>
       </file>
       <file name="index.tsx" path="/Users/huckbit/dev/__react/thinking-in-react-TS/src/components/ProductCategoryRow/index.tsx">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="1" count="5" type="stmt"/>
+        <line num="1" count="7" type="stmt"/>
       </file>
     </package>
     <package name="ProductRow">
@@ -41,40 +41,40 @@
       </file>
       <file name="ProductRow.tsx" path="/Users/huckbit/dev/__react/thinking-in-react-TS/src/components/ProductRow/ProductRow.tsx">
         <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
-        <line num="9" count="8" type="stmt"/>
-        <line num="10" count="8" type="cond" truecount="2" falsecount="0"/>
-        <line num="11" count="8" type="stmt"/>
+        <line num="9" count="11" type="stmt"/>
+        <line num="10" count="11" type="cond" truecount="2" falsecount="0"/>
+        <line num="11" count="11" type="stmt"/>
         <line num="19" count="3" type="stmt"/>
       </file>
       <file name="index.tsx" path="/Users/huckbit/dev/__react/thinking-in-react-TS/src/components/ProductRow/index.tsx">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="1" count="7" type="stmt"/>
+        <line num="1" count="10" type="stmt"/>
       </file>
     </package>
     <package name="ProductTable">
-      <metrics statements="19" coveredstatements="18" conditionals="5" coveredconditionals="4" methods="3" coveredmethods="3"/>
+      <metrics statements="19" coveredstatements="19" conditionals="5" coveredconditionals="5" methods="3" coveredmethods="3"/>
       <file name="ProductTable.mock.tsx" path="/Users/huckbit/dev/__react/thinking-in-react-TS/src/components/ProductTable/ProductTable.mock.tsx">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="3" count="1" type="stmt"/>
         <line num="14" count="1" type="stmt"/>
       </file>
       <file name="ProductTable.tsx" path="/Users/huckbit/dev/__react/thinking-in-react-TS/src/components/ProductTable/ProductTable.tsx">
-        <metrics statements="16" coveredstatements="15" conditionals="5" coveredconditionals="4" methods="2" coveredmethods="2"/>
+        <metrics statements="16" coveredstatements="16" conditionals="5" coveredconditionals="5" methods="2" coveredmethods="2"/>
         <line num="2" count="2" type="stmt"/>
         <line num="3" count="2" type="stmt"/>
-        <line num="13" count="3" type="stmt"/>
-        <line num="15" count="3" type="stmt"/>
-        <line num="17" count="3" type="stmt"/>
-        <line num="18" count="9" type="stmt"/>
-        <line num="19" count="9" type="cond" truecount="1" falsecount="0"/>
-        <line num="20" count="4" type="stmt"/>
-        <line num="22" count="5" type="cond" truecount="2" falsecount="1"/>
-        <line num="23" count="0" type="stmt"/>
-        <line num="25" count="5" type="cond" truecount="1" falsecount="0"/>
-        <line num="26" count="3" type="stmt"/>
-        <line num="28" count="5" type="stmt"/>
-        <line num="29" count="5" type="stmt"/>
-        <line num="32" count="3" type="stmt"/>
+        <line num="13" count="5" type="stmt"/>
+        <line num="15" count="5" type="stmt"/>
+        <line num="17" count="5" type="stmt"/>
+        <line num="18" count="15" type="stmt"/>
+        <line num="19" count="15" type="cond" truecount="1" falsecount="0"/>
+        <line num="20" count="6" type="stmt"/>
+        <line num="22" count="9" type="cond" truecount="3" falsecount="0"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="25" count="8" type="cond" truecount="1" falsecount="0"/>
+        <line num="26" count="5" type="stmt"/>
+        <line num="28" count="8" type="stmt"/>
+        <line num="29" count="8" type="stmt"/>
+        <line num="32" count="5" type="stmt"/>
         <line num="45" count="2" type="stmt"/>
       </file>
       <file name="index.tsx" path="/Users/huckbit/dev/__react/thinking-in-react-TS/src/components/ProductTable/index.tsx">
