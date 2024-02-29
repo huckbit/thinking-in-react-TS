@@ -24,7 +24,7 @@ jobs:
         run: npm run test -- --coverage
 
       - name: Deploy repo coverage to GitHub Pages
-        uses: huckbit/thinking-in-react-TS
+        uses: huckbit/thinking-in-react-TS@main
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./coverage/lcov-report
