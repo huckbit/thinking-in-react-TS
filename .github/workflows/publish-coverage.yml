@@ -3,7 +3,7 @@ name: Publish Coverage Report
 on:
   push:
     branches:
-      - main  
+      - main
 
 jobs:
   build:
@@ -15,7 +15,7 @@ jobs:
       - name: Use Node.js
         uses: actions/setup-node@v2
         with:
-          node-version: '18'  
+          node-version: '18'
 
       - name: Install dependencies
         run: npm ci
@@ -24,7 +24,7 @@ jobs:
         run: npm run test -- --coverage
 
       - name: Deploy repo coverage to GitHub Pages
-        uses: huckbit/actions-gh-pages@v3
+        uses: huckbit/thinking-in-react-TS
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./coverage/lcov-report
