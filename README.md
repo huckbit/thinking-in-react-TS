@@ -1,5 +1,7 @@
 # Thinking in React TS
 
-This is an example from the [React documentation](https://react.dev/learn/thinking-in-react) that has been rewritten in TypeScript.
+This code is an adaptation of the [React documentation example](https://react.dev/learn/thinking-in-react), rewritten in TypeScript. Its purpose is to serve as a guide for team workflow directions and best practices in maintaining a proper file structure.
 
-Test coverage [here](https://huckbit.github.io/thinking-in-react-TS/).
+The components included in this project have been thoroughly tested using [jest](https://github.com/jestjs/jest) and [RTL](https://github.com/testing-library/react-testing-library).
+
+For detailed test coverage, you can refer to [this link](https://huckbit.github.io/thinking-in-react-TS/).
