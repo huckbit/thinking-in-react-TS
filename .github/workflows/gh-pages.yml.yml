@@ -31,9 +31,11 @@ jobs:
         run: npm run test -- --coverage
       - name: Setup Pages
         uses: actions/configure-pages@v4
-      - name: Deploy to GitHub Pages
-        uses: actions/deploy-pages@v4
-        id: deployment
+      - name: Upload artifact
         with:
           path: './coverage/lcov-report'
           github_token: ${{ secrets.GITHUB_TOKEN }}
+        uses: actions/upload-pages-artifact@v3
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
