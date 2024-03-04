@@ -17,10 +17,10 @@ test('renders the correct number of products when filter is checked', () => {
 
 test('renders the correct number of products when filter is empty', () => {
   render(<ProductTable {...mock} filterText='' />);
-  expect(screen.getAllByRole('row').length).toBe(4); // Update the expected value based on your data
+  expect(screen.getAllByRole('row').length).toBe(4);
 });
 
 test('renders the correct number of products when inStockOnly is true', () => {
   render(<ProductTable {...mock} inStockOnly={true} />);
-  expect(screen.getAllByRole('row').length).toBe(3); // Update the expected value based on your data
+  expect(screen.getAllByRole('row').length).toBe(3);
 });
